@@ -6,6 +6,10 @@ export const GlobalStyle = createGlobalStyle`
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+}
+#root{
+  min-height:100vh;
 }
 
 body {
@@ -16,5 +20,7 @@ body {
 header, body, footer {
   font-family: 'Nunito', sans-serif;
   font-size: 1rem;
+  overflow-x: hidden;
 }
+
 `

@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 export const MainContainer = styled.main`
-  width:100vw;
+  width: 100vw;
   height: 31.25rem;
 
   display: flex;
   justify-content: space-between;
-  
-  padding: 4rem 4rem 1rem 4rem;
  
+  padding: 4rem 4rem 1rem 4rem;
+  
   @media (max-width: 998px) {
     flex-direction:column;
     justify-content: center;
@@ -35,10 +35,11 @@ export const TextContainer = styled.div`
     height:auto;
     width:18rem;
     margin-bottom:2rem;
-  }
+    
+    }
 `;
 
-export const TitlePessoa = styled.h1`
+export const TitleProfissional = styled.h1`
   color: ${(props) => props.theme['black']};
   font-family: Nunito;
   font-size: 3rem;
@@ -54,13 +55,13 @@ export const TitlePessoa = styled.h1`
   }
 `;
 
-export const TextPessoa = styled.p`
+export const TextProfissional = styled.p`
   margin-top: 2rem;
   padding-left: 1.5rem;
 
   color: ${(props) => props.theme['gray']};
   font-family: Nunito;
-  font-size: 1.5rem;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -76,13 +77,9 @@ export const TextPessoa = styled.p`
   }
 `;
 
-export const ImagePessoaContainer = styled.div`
-  width: 35rem;
-  height: 27rem;
-  img{
-    width: 34rem;
-    height: 26rem;
-  }
+export const ImageProfissionalContainer = styled.div`
+  width: 34.68rem;
+  height: 26.31rem;
 
   @media (max-width: 1224px) {
     width: 33rem;
