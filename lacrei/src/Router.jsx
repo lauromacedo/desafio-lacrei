@@ -9,11 +9,11 @@ export function Router() {
 
   return (
     <Routes>
-      <Route path='/' element={<DefaultLayout />}>
-        <Route path='/' element={<Home />} />
-        <Route path='/home' element={<Home />} />
-        <Route path='/pessoa-usuaria' element={<PessoaUsuaria />} />
-        <Route path='profissional' element={<Profissional />} />
+      <Route path='/desafio-lacrei/' element={<DefaultLayout />}>
+        <Route path='/desafio-lacrei/' element={<Home />} />
+        <Route path='/desafio-lacrei/home' element={<Home />} />
+        <Route path='/desafio-lacrei/pessoa-usuaria' element={<PessoaUsuaria />} />
+        <Route path='/desafio-lacrei/profissional' element={<Profissional />} />
       </Route>
     </Routes>
   )
