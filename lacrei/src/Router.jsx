@@ -1,4 +1,4 @@
-import { Routes, Route, HashRouter } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
 import { Home } from './pages/Home';
 import { PessoaUsuaria } from './pages/PessoaUsuaria';
@@ -8,7 +8,7 @@ import { DefaultLayout } from './layouts/DefaultLayout';
 export function Router() {
 
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route path='/desafio-lacrei/' element={<DefaultLayout />}>
           <Route path='/desafio-lacrei/' element={<Home />} />
@@ -17,6 +17,6 @@ export function Router() {
           <Route path='/desafio-lacrei/profissional' element={<Profissional />} />
         </Route>
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   )
 }
