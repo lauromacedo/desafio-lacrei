@@ -119,7 +119,7 @@ export const WhiteBtn = styled.button`
 
   color: ${(props) => props.theme['green']};
   font-family: Nunito;
-  font-size: 1.1rem,;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: 700;
   cursor: pointer;
@@ -168,6 +168,7 @@ export const ImageHomeContainer = styled.div`
   @media (max-width: 542px) {
     width:21rem;
     height:16rem;
+    margin-right:0;
     img{
       width: 20rem;
       height: 15rem;

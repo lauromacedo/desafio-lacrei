@@ -8,7 +8,7 @@ export function Header() {
     <HeaderContainer>
       <h1 onClick={() => navigate('/home')}>Lacrei</h1>
       <nav>
-        <NavLink to='/home'>Home</NavLink>
+        <NavLink to='/'>Home</NavLink>
         <NavLink to='/pessoa-usuaria'>Pessoa Usuária</NavLink>
         <NavLink to='/profissional'>Profissional</NavLink>
       </nav>

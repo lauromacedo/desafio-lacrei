@@ -10,7 +10,7 @@ export function Footer() {
 
     <FooterContainer>
       <NavContainer>
-        <NavLink to='/home'>Home</NavLink>
+        <NavLink to='/'>Home</NavLink>
         <NavLink to='/pessoa-usuaria'>Pessoa Usuária</NavLink>
         <NavLink to='/profissional'>Profissional</NavLink>
       </NavContainer>
